@@ -1,0 +1,6 @@
+{
+  "token": "", // bot token
+  "owner": "743128648433008692", 
+  "prefix": "!",
+  "serverid": "v48z95" // its just example you can find serverid on https://servers.fivem.net/
+}

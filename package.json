@@ -1,0 +1,28 @@
+{
+  "name": "rawe",
+  "version": "0.0.1",
+  "description": "Rawe Status Bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cfx-api": "^1.0.122",
+    "discord.js": "^12.5.3",
+    "fs": "^0.0.1-security",
+    "got": "^12.3.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "fivem",
+    "fivem status bot",
+    "status"
+  ]
+}
