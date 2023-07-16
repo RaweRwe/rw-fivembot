@@ -5,7 +5,7 @@ client = new Discord.Client();
 
 module.exports.run = async (client, message, args) => {
   const status = await cfx.fetchStatus()
-  message.channel.send(status.everythingOk ? "**All Cfx.re systems are operational**" : "Cfx.re is experiencing issues")
+  message.channel.send(status.everythingOk ? "**All Cfx.re Systems Are Operational**" : "Cfx.re Is Experiencing Issues")
 };
 
 exports.config = {

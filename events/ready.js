@@ -1,17 +1,20 @@
 const Discord = require("discord.js");
-const config = require('../config.json');
-module.exports = async client => {
-  client.user.setPresence({ activity: { type: "WATCHING", name: `Rawe`}, status: 'idle' })
+const config = require("../config.json");
+module.exports = async (client) => {
+  client.user.setPresence({
+    activity: { type: "WATCHING", name: `Rawe` },
+    status: "idle",
+  });
 };
 
-// Type kısımları:
-// WATCHING - İZLİYOR
-// PLAYING - OYNUYOR
-// LISTENING - DİNLİYOR
+// Types:
+// WATCHING - WATCHING
+// PLAYING - PLAYING
+// LISTENING - LISTENING
 
-// Status kısımları:
-// online - çevrim içi
-// idle - boşta
-// dnd - rahatsız etmeyin
+// Statuses:
+// online - online
+// idle
+// dnd - do not disturb
 
-// name kısmına oynuyorunuzu yazabilirsiniz.
+// You can write your game in the name field.
